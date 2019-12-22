@@ -1,5 +1,5 @@
 # belajar-binary-tree
-class TreeNode {
+`class TreeNode {
   constructor(val, left=undefined, right=undefined) {
     this.val = val
     this.left = left
@@ -273,4 +273,4 @@ def lift(node, nodeToDelete):
     nodeToDelete.value = node.value
     // We return the successor node's right child to be now used
     // as its parent's left child:
-    return node.rightChild
+    return node.rightChild`
