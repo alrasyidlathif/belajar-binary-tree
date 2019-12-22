@@ -1,17 +1,17 @@
 # belajar-binary-tree
-`class TreeNode {
+`class TreeNode {`
 
-.. constructor(val, left=undefined, right=undefined) {
+`.. constructor(val, left=undefined, right=undefined) {`
 
-.... this.val = val
+`.... this.val = val`
 
-.... this.left = left
+`.... this.left = left`
 
-.... this.right = right
+`.... this.right = right`
 
-.. }
+`.. }`
 
-}`
+`}`
 
 // how to make a tree
 // node1 = new TreeNode(1)
@@ -20,11 +20,15 @@
 // node3 = new TreeNode(8)
 // node2.left = node3
 
-function search(value, tree=undefined) {
-  if (tree == undefined) {
-    return console.log('not found')
-  } else if (tree.val == value) {
-    return tree
+`function search(value, tree=undefined) {`
+
+`..  if (tree == undefined) {`
+
+`....    return console.log('not found')`
+
+`..  } else if (tree.val == value) {`
+
+`....    return tree`
   } else if (tree.val > value) {
     return search(value, tree.left)
   } else {
