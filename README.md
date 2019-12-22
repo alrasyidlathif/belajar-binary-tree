@@ -5,7 +5,7 @@
     this.left = left
     this.right = right
   }
-}
+}`
 
 // how to make a tree
 // node1 = new TreeNode(1)
