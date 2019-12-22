@@ -10,17 +10,13 @@ class TreeNode {
 ```
 
 ### how to make a tree
+- node1 = new TreeNode(1)
+- node2 = new TreeNode(10)
+- node0 = new TreeNode(5, node1, node2)
+- node3 = new TreeNode(8)
+- node2.left = node3
 
-node1 = new TreeNode(1)
-
-node2 = new TreeNode(10)
-
-node0 = new TreeNode(5, node1, node2)
-
-node3 = new TreeNode(8)
-
-node2.left = node3
-
+```
 function search(value, tree=undefined) {
   if (tree == undefined) {
     return console.log('not found')
@@ -32,7 +28,7 @@ function search(value, tree=undefined) {
     return search(value, tree.right)
   }
 }
-
+```
 
 // how to search
 // search(3)
