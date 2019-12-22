@@ -19,7 +19,7 @@ node3 = new TreeNode(8)
 
 node2.left = node3
 
-```function search(value, tree=undefined) {
+function search(value, tree=undefined) {
   if (tree == undefined) {
     return console.log('not found')
   } else if (tree.val == value) {
@@ -29,7 +29,7 @@ node2.left = node3
   } else {
     return search(value, tree.right)
   }
-}```
+}
 
 
 // how to search
@@ -279,4 +279,4 @@ def lift(node, nodeToDelete):
     nodeToDelete.value = node.value
     // We return the successor node's right child to be now used
     // as its parent's left child:
-    return node.rightChild`
+    return node.rightChild
