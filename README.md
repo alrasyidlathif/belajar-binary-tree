@@ -1,10 +1,16 @@
 # belajar-binary-tree
 `class TreeNode {`
+
 `..constructor(val, left=undefined, right=undefined) {`
+
 `....this.val = val`
+
 `....this.left = left`
+
 `....this.right = right`
+
 `..}`
+
 `}`
 
 // how to make a tree
