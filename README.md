@@ -325,3 +325,22 @@ def lift(node, nodeToDelete):
     # as its parent's left child:
     return node.rightChild
 ```
+### function to print all node value in order
+```
+function traverseAndPrint(node) {
+  if (node == undefined) {
+    return
+  }
+  traverseAndPrint(node.left)
+  console.log(node.val)
+  traverseAndPrint(node.right)
+}
+```
+### how to use
+- traverseAndPrint(node0)
+```
+1
+5
+8
+10
+```
